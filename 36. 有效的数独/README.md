@@ -8,7 +8,7 @@
 
 ![图片](https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-20050714.svg/250px-Sudoku-by-L2G-20050714.svg.png)
 
-上图是一个部分填充的有效的数独。
+上图是一个部分填充的有效的数独。<br>
 数独部分空格内已填入了数字，空白格用 `'.'` 表示。
 
 #### 示例 1:
