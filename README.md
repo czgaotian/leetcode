@@ -1,5 +1,5 @@
 # Keep thinking, keep alive
-Until 2018-05-28 14:40:38, I have solved **7** / **758** problems while **133** are still locked.
+Until 2018-05-28 14:44:16, I have solved **7** / **758** problems while **133** are still locked.
 
 Completion statistic: 
 1. JavaScript: 7 
@@ -12,7 +12,7 @@ Note: :lock: means you need to buy a book from LeetCode
 ## LeetCode Solution Table
 | ID | Title | Difficulty | JavaScript | Python | C++ |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-|001|[Two Sum](https://leetcode.com/problems/two-sum/description/) |Easy|[JavaScript](https://github.com/czgaotian/leetcode/blob/master/leetcode-algorithms/001.%20Two%20Su/Two Su.js)|To Do|To Do|
+|001|[Two Sum](https://leetcode.com/problems/two-sum/description/) |Easy|[JavaScript](https://github.com/czgaotian/leetcode/blob/master/leetcode-algorithms/001.%20Two%20Su/Two_Su.js)|To Do|To Do|
 |002|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) |Medium|To Do|To Do|To Do|
 |003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) |Medium|To Do|To Do|To Do|
 |004|[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/) |Hard|To Do|To Do|To Do|
@@ -59,7 +59,7 @@ Note: :lock: means you need to buy a book from LeetCode
 |045|[Jump Game II](https://leetcode.com/problems/jump-game-ii/description/) |Hard|To Do|To Do|To Do|
 |046|[Permutations](https://leetcode.com/problems/permutations/description/) |Medium|To Do|To Do|To Do|
 |047|[Permutations II](https://leetcode.com/problems/permutations-ii/description/) |Medium|To Do|To Do|To Do|
-|048|[Rotate Image](https://leetcode.com/problems/rotate-image/description/) |Medium|[JavaScript](https://github.com/czgaotian/leetcode/blob/master/leetcode-algorithms/048.%20Rotate%20Imag/048. Rotate Imag.js)|To Do|To Do|
+|048|[Rotate Image](https://leetcode.com/problems/rotate-image/description/) |Medium|[JavaScript](https://github.com/czgaotian/leetcode/blob/master/leetcode-algorithms/048.%20Rotate%20Imag/Rotate_Imag.js)|To Do|To Do|
 |049|[Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) |Medium|To Do|To Do|To Do|
 |050|[Pow(x, n)](https://leetcode.com/problems/powx-n/description/) |Medium|To Do|To Do|To Do|
 |051|[N-Queens](https://leetcode.com/problems/n-queens/description/) |Hard|To Do|To Do|To Do|
@@ -77,7 +77,7 @@ Note: :lock: means you need to buy a book from LeetCode
 |063|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/) |Medium|To Do|To Do|To Do|
 |064|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/) |Medium|To Do|To Do|To Do|
 |065|[Valid Number](https://leetcode.com/problems/valid-number/description/) |Hard|To Do|To Do|To Do|
-|066|[Plus One](https://leetcode.com/problems/plus-one/description/) |Easy|[JavaScript](https://github.com/czgaotian/leetcode/blob/master/leetcode-algorithms/066.%20Plus%20On/066. Plus On.js)|To Do|To Do|
+|066|[Plus One](https://leetcode.com/problems/plus-one/description/) |Easy|[JavaScript](https://github.com/czgaotian/leetcode/blob/master/leetcode-algorithms/066.%20Plus%20On/Plus_On.js)|To Do|To Do|
 |067|[Add Binary](https://leetcode.com/problems/add-binary/description/) |Easy|To Do|To Do|To Do|
 |068|[Text Justification](https://leetcode.com/problems/text-justification/description/) |Hard|To Do|To Do|To Do|
 |069|[Sqrt(x)](https://leetcode.com/problems/sqrtx/description/) |Easy|To Do|To Do|To Do|
@@ -277,7 +277,7 @@ Note: :lock: means you need to buy a book from LeetCode
 |280|[Wiggle Sort](https://leetcode.com/problems/wiggle-sort/description/) :lock:|Medium|To Do|To Do|To Do|
 |281|[Zigzag Iterator](https://leetcode.com/problems/zigzag-iterator/description/) :lock:|Medium|To Do|To Do|To Do|
 |282|[Expression Add Operators](https://leetcode.com/problems/expression-add-operators/description/) |Hard|To Do|To Do|To Do|
-|283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) |Easy|[JavaScript](https://github.com/czgaotian/leetcode/blob/master/leetcode-algorithms/283.%20Move%20Zeroe/283. Move Zeroe.js)|To Do|To Do|
+|283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/) |Easy|[JavaScript](https://github.com/czgaotian/leetcode/blob/master/leetcode-algorithms/283.%20Move%20Zeroe/Move_Zeroe.js)|To Do|To Do|
 |284|[Peeking Iterator](https://leetcode.com/problems/peeking-iterator/description/) |Medium|To Do|To Do|To Do|
 |285|[Inorder Successor in BST](https://leetcode.com/problems/inorder-successor-in-bst/description/) :lock:|Medium|To Do|To Do|To Do|
 |286|[Walls and Gates](https://leetcode.com/problems/walls-and-gates/description/) :lock:|Medium|To Do|To Do|To Do|
@@ -338,13 +338,13 @@ Note: :lock: means you need to buy a book from LeetCode
 |341|[Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/description/) |Medium|To Do|To Do|To Do|
 |342|[Power of Four](https://leetcode.com/problems/power-of-four/description/) |Easy|To Do|To Do|To Do|
 |343|[Integer Break](https://leetcode.com/problems/integer-break/description/) |Medium|To Do|To Do|To Do|
-|344|[Reverse String](https://leetcode.com/problems/reverse-string/description/) |Easy|[JavaScript](https://github.com/czgaotian/leetcode/blob/master/leetcode-algorithms/344.%20Reverse%20Strin/344. Reverse Strin.js)|To Do|To Do|
+|344|[Reverse String](https://leetcode.com/problems/reverse-string/description/) |Easy|[JavaScript](https://github.com/czgaotian/leetcode/blob/master/leetcode-algorithms/344.%20Reverse%20Strin/Reverse_Strin.js)|To Do|To Do|
 |345|[Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/) |Easy|To Do|To Do|To Do|
 |346|[Moving Average from Data Stream](https://leetcode.com/problems/moving-average-from-data-stream/description/) :lock:|Easy|To Do|To Do|To Do|
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/) |Medium|To Do|To Do|To Do|
 |348|[Design Tic-Tac-Toe](https://leetcode.com/problems/design-tic-tac-toe/description/) :lock:|Medium|To Do|To Do|To Do|
 |349|[Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/) |Easy|To Do|To Do|To Do|
-|350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/) |Easy|[JavaScript](https://github.com/czgaotian/leetcode/blob/master/leetcode-algorithms/350.%20Intersection%20of%20Two%20Arrays%20I/350. Intersection of Two Arrays I.js)|To Do|To Do|
+|350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/) |Easy|[JavaScript](https://github.com/czgaotian/leetcode/blob/master/leetcode-algorithms/350.%20Intersection%20of%20Two%20Arrays%20I/Intersection_of_Two_Arrays_I.js)|To Do|To Do|
 |351|[Android Unlock Patterns](https://leetcode.com/problems/android-unlock-patterns/description/) :lock:|Medium|To Do|To Do|To Do|
 |352|[Data Stream as Disjoint Intervals](https://leetcode.com/problems/data-stream-as-disjoint-intervals/description/) |Hard|To Do|To Do|To Do|
 |353|[Design Snake Game](https://leetcode.com/problems/design-snake-game/description/) :lock:|Medium|To Do|To Do|To Do|
