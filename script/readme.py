@@ -15,9 +15,9 @@ class Config:
     """
     local_path = 'C:/Users/admin/Desktop/leedcode'
     # solution of leetcode
-    github_leetcode_url = 'https://github.com/czgaotian/leedcode/blob/master/leetcode-algorithms/'
+    github_leetcode_url = 'https://github.com/czgaotian/leetcode/blob/master/leetcode-algorithms/'
     # solution of pat,　暂时还没写
-    github_pat_url = 'https://github.com/czgaotian/leedcode/blob/master/pat-algorithms/'
+    github_pat_url = 'https://github.com/czgaotian/leetcode/blob/master/pat-algorithms/'
     leetcode_url = 'https://leetcode.com/problems/'
 
 
@@ -148,13 +148,15 @@ class TableInform:
                             folder_url = folder.replace(' ', "%20")
                             folder_url = os.path.join(folder_url, item)
                             folder_url = os.path.join(Config.github_leetcode_url, folder_url)
-                            # print(folder_url)
+                            print(folder_url)
                             self.table_item[folder[:3]].c_plus_plus = '[C++]({})'.format(folder_url)
                         elif item.endswith('.js'):
                             complete_info.solved['javascript'] += 1
                             folder_url = folder.replace(' ', "%20")
                             folder_url = os.path.join(folder_url, item)
                             folder_url = os.path.join(Config.github_leetcode_url, folder_url)
+                            # 解决路径'\'不对的问题
+                            folder_url = folder_url.replace('\\','/')
                             # print(folder_url)
                             self.table_item[folder[:3]].javascript = '[JavaScript]({})'.format(folder_url)
         readme = Readme(complete_info.total,
