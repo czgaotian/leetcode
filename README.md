@@ -1,5 +1,5 @@
 # Keep thinking, keep alive
-Until 2018-05-28 14:03:23, I have solved **7** / **758** problems while **133** are still locked.
+Until 2018-05-28 14:08:09, I have solved **7** / **758** problems while **133** are still locked.
 
 Completion statistic: 
 1. JavaScript: 7 
@@ -11,7 +11,7 @@ Note: :lock: means you need to buy a book from LeetCode
 ----------------
 ## LeetCode Solution Table
 | ID | Title | Difficulty | JavaScript | Python | C++ |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|:---:|:---:|:---:|:---:|:---:|:---:|
 |001|[Two Sum](https://leetcode.com/problems/two-sum/description/) |Easy|[JavaScript](https://github.com/czgaotian/leedcode/blob/master/leetcode-algorithms/001.%20Two%20Su\001. Two Su.js)|To Do|To Do|
 |002|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) |Medium|To Do|To Do|To Do|
 |003|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/) |Medium|To Do|To Do|To Do|
