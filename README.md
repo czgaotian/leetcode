@@ -1,8 +1,8 @@
 # Keep thinking, keep alive
-Until 2018-05-30 14:14:40, I have solved **9** / **758** problems while **133** are still locked.
+Until 2018-05-30 17:11:29, I have solved **12** / **758** problems while **133** are still locked.
 
 Completion statistic: 
-1. JavaScript: 9 
+1. JavaScript: 12 
 2. Python: 0
 3. C++: 0
 
@@ -19,7 +19,7 @@ Note: :lock: means you need to buy a book from LeetCode
 |005|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/) |Medium|To Do|To Do|To Do|
 |006|[ZigZag Conversion](https://leetcode.com/problems/zigzag-conversion/description/) |Medium|To Do|To Do|To Do|
 |007|[Reverse Integer](https://leetcode.com/problems/reverse-integer/description/) |Easy|[JavaScript](https://github.com/czgaotian/leetcode/blob/master/leetcode-algorithms/007.%20Reverse%20Integer/reverse_integer.js)|To Do|To Do|
-|008|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/) |Medium|To Do|To Do|To Do|
+|008|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/) |Medium|[JavaScript](https://github.com/czgaotian/leetcode/blob/master/leetcode-algorithms/008.%20String%20to%20Integer%20(atoi)/atoi.js)|To Do|To Do|
 |009|[Palindrome Number](https://leetcode.com/problems/palindrome-number/description/) |Easy|To Do|To Do|To Do|
 |010|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/) |Hard|To Do|To Do|To Do|
 |011|[Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/) |Medium|To Do|To Do|To Do|
@@ -136,7 +136,7 @@ Note: :lock: means you need to buy a book from LeetCode
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) |Easy|To Do|To Do|To Do|
 |123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/) |Hard|To Do|To Do|To Do|
 |124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/) |Hard|To Do|To Do|To Do|
-|125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/) |Easy|To Do|To Do|To Do|
+|125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/) |Easy|[JavaScript](https://github.com/czgaotian/leetcode/blob/master/leetcode-algorithms/125.%20Valid%20Palindrome/Valid_Palindrome.js)|To Do|To Do|
 |126|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/description/) |Hard|To Do|To Do|To Do|
 |127|[Word Ladder](https://leetcode.com/problems/word-ladder/description/) |Medium|To Do|To Do|To Do|
 |128|[Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/description/) |Hard|To Do|To Do|To Do|
@@ -237,7 +237,7 @@ Note: :lock: means you need to buy a book from LeetCode
 |239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/) |Hard|To Do|To Do|To Do|
 |240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/description/) |Medium|To Do|To Do|To Do|
 |241|[Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/description/) |Medium|To Do|To Do|To Do|
-|242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/description/) |Easy|To Do|To Do|To Do|
+|242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/description/) |Easy|[JavaScript](https://github.com/czgaotian/leetcode/blob/master/leetcode-algorithms/242.%20Valid%20Anagram/Valid_Anagram.js)|To Do|To Do|
 |243|[Shortest Word Distance](https://leetcode.com/problems/shortest-word-distance/description/) :lock:|Easy|To Do|To Do|To Do|
 |244|[Shortest Word Distance II](https://leetcode.com/problems/shortest-word-distance-ii/description/) :lock:|Medium|To Do|To Do|To Do|
 |245|[Shortest Word Distance III](https://leetcode.com/problems/shortest-word-distance-iii/description/) :lock:|Medium|To Do|To Do|To Do|
