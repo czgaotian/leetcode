@@ -4,6 +4,7 @@ import requests
 import os
 import json
 import time
+import re
 
 
 class Config:
@@ -99,10 +100,12 @@ class TableInform:
             print('creating {} algorithms....'.format(oj_name))
             os.mkdir(oj_algorithms)
         for item in self.table_item.values():
-            question_folder_name = oj_algorithms + '/' + item.id_ + '. ' + item.title
-            if os.name != 'posix':
-                # 如果不是linux，那么就要吧后面的问号去掉
-                question_folder_name = question_folder_name[:-1]
+            # window下文件夹名不能有?\*|"<>:/ 吧这些去掉
+            title = re.sub('[?\*|"<>:/]', '', item.title)
+            question_folder_name = oj_algorithms + '/' + item.id_ + '. ' + title
+            # if os.name != 'posix':
+            #     如果不是linux，那么就要吧后面的问号去掉
+            #     question_folder_name = question_folder_name[:-1]
             if not os.path.exists(question_folder_name):
                 print(question_folder_name + 'is not exits, create it now....')
                 os.mkdir(question_folder_name)
@@ -135,6 +138,8 @@ class TableInform:
                             folder_url = folder.replace(' ', "%20")
                             folder_url = os.path.join(folder_url, item)
                             folder_url = os.path.join(Config.github_leetcode_url, folder_url)
+                            # 解决路径'\'不对的问题
+                            folder_url = folder_url.replace('\\','/')
                             # print(folder_url)
                             self.table_item[folder[:3]].python = '[Python]({})'.format(folder_url)
                         # elif item.endswith('.java'):
@@ -148,7 +153,9 @@ class TableInform:
                             folder_url = folder.replace(' ', "%20")
                             folder_url = os.path.join(folder_url, item)
                             folder_url = os.path.join(Config.github_leetcode_url, folder_url)
-                            print(folder_url)
+                            # 解决路径'\'不对的问题
+                            folder_url = folder_url.replace('\\','/')
+                            # print(folder_url)
                             self.table_item[folder[:3]].c_plus_plus = '[C++]({})'.format(folder_url)
                         elif item.endswith('.js'):
                             complete_info.solved['javascript'] += 1
