@@ -14,7 +14,7 @@ class Config:
     １．　本地仓库的的路径
     ２．　github中的仓库leetcode解法的路径
     """
-    local_path = 'C:/Users/admin/Desktop/leedcode'
+    local_path = 'C:/Users/admin/Desktop/leetcode'
     # solution of leetcode
     github_leetcode_url = 'https://github.com/czgaotian/leetcode/blob/master/leetcode-algorithms/'
     # solution of pat,　暂时还没写

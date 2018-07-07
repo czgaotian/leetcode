@@ -1,8 +1,8 @@
 # Keep thinking, keep alive
-Until 2018-06-11 17:40:46, I have solved **17** / **766** problems while **133** are still locked.
+Until 2018-07-07 11:39:28, I have solved **20** / **779** problems while **133** are still locked.
 
 Completion statistic: 
-1. JavaScript: 17 
+1. JavaScript: 20 
 2. Python: 0
 3. C++: 0
 
@@ -32,7 +32,7 @@ Note: :lock: means you need to buy a book from LeetCode
 |018|[4Sum](https://leetcode.com/problems/4sum/description/) |Medium|To Do|To Do|To Do|
 |019|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) |Medium|[JavaScript](https://github.com/czgaotian/leetcode/blob/master/leetcode-algorithms/019.%20Remove%20Nth%20Node%20From%20End%20of%20List/019.js)|To Do|To Do|
 |020|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/) |Easy|To Do|To Do|To Do|
-|021|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/) |Easy|To Do|To Do|To Do|
+|021|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/) |Easy|[JavaScript](https://github.com/czgaotian/leetcode/blob/master/leetcode-algorithms/021.%20Merge%20Two%20Sorted%20Lists/021.js)|To Do|To Do|
 |022|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/) |Medium|To Do|To Do|To Do|
 |023|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/) |Hard|To Do|To Do|To Do|
 |024|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/description/) |Medium|To Do|To Do|To Do|
@@ -115,7 +115,7 @@ Note: :lock: means you need to buy a book from LeetCode
 |101|[Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/) |Easy|To Do|To Do|To Do|
 |102|[Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/description/) |Medium|To Do|To Do|To Do|
 |103|[Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/) |Medium|To Do|To Do|To Do|
-|104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) |Easy|To Do|To Do|To Do|
+|104|[Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) |Easy|[JavaScript](https://github.com/czgaotian/leetcode/blob/master/leetcode-algorithms/104.%20Maximum%20Depth%20of%20Binary%20Tree/104.js)|To Do|To Do|
 |105|[Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/) |Medium|To Do|To Do|To Do|
 |106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/) |Medium|To Do|To Do|To Do|
 |107|[Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/description/) |Easy|To Do|To Do|To Do|
@@ -152,7 +152,7 @@ Note: :lock: means you need to buy a book from LeetCode
 |138|[Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/description/) |Medium|To Do|To Do|To Do|
 |139|[Word Break](https://leetcode.com/problems/word-break/description/) |Medium|To Do|To Do|To Do|
 |140|[Word Break II](https://leetcode.com/problems/word-break-ii/description/) |Hard|To Do|To Do|To Do|
-|141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) |Easy|To Do|To Do|To Do|
+|141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/) |Easy|[JavaScript](https://github.com/czgaotian/leetcode/blob/master/leetcode-algorithms/141.%20Linked%20List%20Cycle/141.js)|To Do|To Do|
 |142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/) |Medium|To Do|To Do|To Do|
 |143|[Reorder List](https://leetcode.com/problems/reorder-list/description/) |Medium|To Do|To Do|To Do|
 |144|[Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/) |Medium|To Do|To Do|To Do|
@@ -778,3 +778,16 @@ Note: :lock: means you need to buy a book from LeetCode
 |849|[Maximize Distance to Closest Person](https://leetcode.com/problems/maximize-distance-to-closest-person/description/) |Easy|To Do|To Do|To Do|
 |850|[Rectangle Area II](https://leetcode.com/problems/rectangle-area-ii/description/) |Hard|To Do|To Do|To Do|
 |851|[Loud and Rich](https://leetcode.com/problems/loud-and-rich/description/) |Medium|To Do|To Do|To Do|
+|852|[Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/) |Easy|To Do|To Do|To Do|
+|853|[Car Fleet](https://leetcode.com/problems/car-fleet/description/) |Medium|To Do|To Do|To Do|
+|854|[K-Similar Strings](https://leetcode.com/problems/k-similar-strings/description/) |Hard|To Do|To Do|To Do|
+|855|[Exam Room](https://leetcode.com/problems/exam-room/description/) |Medium|To Do|To Do|To Do|
+|856|[Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/description/) |Medium|To Do|To Do|To Do|
+|857|[Minimum Cost to Hire K Workers](https://leetcode.com/problems/minimum-cost-to-hire-k-workers/description/) |Hard|To Do|To Do|To Do|
+|858|[Mirror Reflection](https://leetcode.com/problems/mirror-reflection/description/) |Medium|To Do|To Do|To Do|
+|859|[Buddy Strings](https://leetcode.com/problems/buddy-strings/description/) |Easy|To Do|To Do|To Do|
+|860|[Lemonade Change](https://leetcode.com/problems/lemonade-change/description/) |Easy|To Do|To Do|To Do|
+|861|[Score After Flipping Matrix](https://leetcode.com/problems/score-after-flipping-matrix/description/) |Medium|To Do|To Do|To Do|
+|862|[Shortest Subarray with Sum at Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/description/) |Hard|To Do|To Do|To Do|
+|863|[All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/description/) |Medium|To Do|To Do|To Do|
+|864|[Random Pick with Blacklist](https://leetcode.com/problems/random-pick-with-blacklist/description/) |Hard|To Do|To Do|To Do|
