@@ -1,7 +1,7 @@
 # How to Use This
 #### 安装`requeset`库
 ```
-pip install request 
+pip install requests 
 ```
 #### 修改配置项
 ```

@@ -6,7 +6,6 @@ import json
 import time
 import re
 
-
 class Config:
     """
     some config, such as your github page
@@ -14,11 +13,9 @@ class Config:
     １．　本地仓库的的路径
     ２．　github中的仓库leetcode解法的路径
     """
-    local_path = 'C:/Users/admin/Desktop/leetcode'
+    local_path = os.path.abspath(os.path.join(os.getcwd(), ".."))
     # solution of leetcode
     github_leetcode_url = 'https://github.com/czgaotian/leetcode/blob/master/leetcode-algorithms/'
-    # solution of pat,　暂时还没写
-    github_pat_url = 'https://github.com/czgaotian/leetcode/blob/master/pat-algorithms/'
     leetcode_url = 'https://leetcode.com/problems/'
 
 
@@ -142,21 +139,6 @@ class TableInform:
                             folder_url = folder_url.replace('\\','/')
                             # print(folder_url)
                             self.table_item[folder[:3]].python = '[Python]({})'.format(folder_url)
-                        # elif item.endswith('.java'):
-                        #     complete_info.solved['java'] += 1
-                        #     folder_url = folder.replace(' ', "%20")
-                        #     folder_url = os.path.join(folder_url, item)
-                        #     folder_url = os.path.join(Config.github_leetcode_url, folder_url)
-                        #     self.table_item[folder[:3]].java = '[Java]({})'.format(folder_url)
-                        elif item.endswith('.cpp'):
-                            complete_info.solved['c++'] += 1
-                            folder_url = folder.replace(' ', "%20")
-                            folder_url = os.path.join(folder_url, item)
-                            folder_url = os.path.join(Config.github_leetcode_url, folder_url)
-                            # 解决路径'\'不对的问题
-                            folder_url = folder_url.replace('\\','/')
-                            # print(folder_url)
-                            self.table_item[folder[:3]].c_plus_plus = '[C++]({})'.format(folder_url)
                         elif item.endswith('.js'):
                             complete_info.solved['javascript'] += 1
                             folder_url = folder.replace(' ', "%20")
@@ -185,8 +167,6 @@ class CompleteInform:
     def __init__(self):
         self.solved = {
             'python': 0,
-            'c++': 0,
-            # 'java': 0,
             'javascript': 0
         }
         self.complete_num = 0
@@ -221,7 +201,6 @@ class Readme:
                    '\n\nCompletion statistic: ' \
                    '\n1. JavaScript: {javascript} ' \
                    '\n2. Python: {python}' \
-                   '\n3. C++: {c++}' \
                    '\n\nNote: :lock: means you need to buy a book from LeetCode\n'.format(
                     self.time, self.solved, self.total, self.locked, **self.others)
 
@@ -238,7 +217,7 @@ class Readme:
 
         with open(file_path, 'a') as f:
             f.write('## LeetCode Solution Table\n')
-            f.write('| ID | Title | Difficulty | JavaScript | Python | C++ |\n')
+            f.write('| ID | Title | Difficulty | JavaScript | Python |\n')
             f.write('|:---:' * 6 + '|\n')
             table, table_item = table_instance
             # print(table)
