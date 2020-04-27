@@ -236,10 +236,8 @@ class Readme:
                     'difficulty': item.difficulty,
                     'js': item.javascript if item.javascript else 'To Do',
                     'python': item.python if item.python else 'To Do',
-                    'c++': item.c_plus_plus if item.c_plus_plus else 'To Do',
-                    # 'java': item.java if item.java else 'To Do'
                 }
-                line = '|{id}|{title}|{difficulty}|{js}|{python}|{c++}|\n'.format(**data)
+                line = '|{id}|{title}|{difficulty}|{js}|{python}|\n'.format(**data)
                 f.write(line)
             print('README.md was created.....')
 
